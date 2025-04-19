@@ -1,56 +1,71 @@
-# CS300-Pseudocode
-To get this solution, whatsapp: +254794689731
+# 📘 CS300-Pseudocode Guide
 
-# CS 300 Pseudocode Document
+💡 *I can help you complete this project at an affordable price!*  
+📞 Contact me via **WhatsApp** at [+254794689731](https://wa.me/254794689731)  
+📧 Or email: **fawcetteugene@gmail.com**
 
-## Example Function Signatures
+---
 
-Below is an example of a function signature that you can use as a guide to help address the program requirements using each data structure for the milestones. The pseudocode for finding and printing course information is also given below and depicted in bold to help you get started. The provided pseudocode is for a vector data structure, so you may use this pseudocode in your first milestone as is. The hash table and tree structures are also shown below. But these structures are left for you to do in future milestones.
+## 📌 What’s Inside
 
-//Vector - Milestone 1
+This guide provides example pseudocode and runtime analysis for each CS300 milestone using different data structures:
 
-void searchCourse(Vector&lt;Course&gt; courses, String courseNumber) {
+- ✅ **Vector** implementation – Milestone 1 (with full pseudocode)
+- ✅ Function signatures for **Hash Table** & **Binary Search Tree**
+- ✅ Example **Big-O Runtime Analysis Chart**
 
-**for all courses**
+---
 
-**if the course is the same as courseNumber**
-
-**print out the course information**
-
-**for each prerequisite of the course**
-
-**print the prerequisite course information**
-
+### 🔹 Vector - Milestone 1
+```cpp
+void searchCourse(Vector<Course> courses, String courseNumber) {
+    for all courses
+        if the course is the same as courseNumber
+            print out the course information
+            for each prerequisite of the course
+                print the prerequisite course information
 }
+```
 
-//Hash Table - Milestone 2
+---
 
-void searchCourse(HashTable&lt;Course&gt; courses, String courseNumber) {
-
+### 🔹 Hash Table - Milestone 2
+```cpp
+void searchCourse(HashTable<Course> courses, String courseNumber) {
+    // To be implemented
 }
+```
 
-//Binary Search Tree – Milestone 3
+---
 
-void searchCourse(Tree&lt;Course&gt; courses, String courseNumber) {
+### 🔹 Binary Search Tree – Milestone 3
+```cpp
+void searchCourse(Tree<Course> courses, String courseNumber) {
+    // To be implemented
+}
+```
 
-## Example Runtime Analysis
+---
 
-When you are ready to analyze the runtime for the Project One data structures for which you created the pseudocode, use the example chart below to support your work. This particular example is for printing course information when using the vector data structure. As a reminder, this is the same pairing that was bolded in the pseudocode from the first part of this document. The example only covers the search function for the vector structure. You do not have to complete your runtime analysis until Project One. However, working on your analysis now may help you understand the changes as you complete the milestones. Don’t forget to include your charts in Project One. You will submit Project One in Module Six.
+## ⏱️ Runtime Analysis Example (Vector)
 
-| **Code** | **Line Cost** | **\# Times Executes** | **Total Cost** |
-| --- | --- | --- | --- |
-| **for all courses** | 1   | n   | n   |
-| --- | --- | --- | --- |
-| **if the course is the same as courseNumber** | 1   | n   | n   |
-| --- | --- | --- | --- |
-| **for each prerequisite of the course** | 1   | 1   | 1   |
-| --- | --- | --- | --- |
-| **for each prerequisite of the course** | 1   | n   | n   |
-| --- | --- | --- | --- |
-| **print the prerequisite course information** | 1   | n   | n   |
-| --- | --- | --- | --- |
-| **Total Cost** |     |     | 4n + 1 |
-| --- |     |     | --- | --- | --- |
-| **Runtime** |     |     | O(n) |
-| --- |     |     | --- | --- | --- |
-To get this solution, whatsapp: +254794689731
+| Code                                 | Line Cost | # Times Executes | Total Cost |
+|--------------------------------------|-----------|------------------|-------------|
+| for all courses                      | 1         | n                | n           |
+| if the course is the same            | 1         | n                | n           |
+| for each prerequisite of the course | 1         | 1                | 1           |
+| print the prerequisite               | 1         | n                | n           |
+| **Total Cost**                       |           |                  | **4n + 1**   |
+| **Runtime**                          |           |                  | **O(n)**     |
+
+---
+
+## 🤝 Need Help?
+
+📲 Click the WhatsApp icon below to chat and get assistance with your CS300 Project!
+
+[![WhatsApp](https://img.shields.io/badge/Chat%20on-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/254794689731)
+
+---
+
+> ⚠️ *This solution is for educational purposes. Always adhere to your academic integrity policies.*
